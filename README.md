@@ -20,4 +20,13 @@ https://cdn.jsdelivr.net/gh/PikaSama/blog-emotions@latest/bilibilihotkey
 
 ## 支持的表情包：
 持续更新中
-- BilibiliHotKey
+ - BilibiliHotKey
+ - HONKAI3-Crayon
+ - HONKAI3-Daily
+ - HONKAI3-Durandal-Search
+ - HONKAI3-MEI
+ - HONKAI3-NEWYEAR-2019
+ - HONKAI3-Pure
+ - HONKAI3-Stan
+ - HONKAI3-Star
+ - HONKAI3-AIChan
