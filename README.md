@@ -4,3 +4,20 @@
 
 用此方式可以制作属于自己的ValineCDN
 
+# blog-emotions
+
+适用于MiniValine的表情包拓展，fork自GamerNoTitle的ValineCDN
+
+小白并不知道怎么把Valine-Magic中的表情包用在MiniValine上，于是就弄了个这个
+
+## 使用方法
+选择你要用的表情包，然后引用即可
+
+这里以b站热词表情包为例
+```
+https://cdn.jsdelivr.net/gh/PikaSama/blog-emotions@latest/bilibilihotkey
+```
+
+## 支持的表情包：
+持续更新中
+- BilibiliHotKey
