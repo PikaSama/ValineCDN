@@ -4,7 +4,7 @@
 
 用此方式可以制作属于自己的ValineCDN
 
-# blog-emotions
+# blog-emoticons
 
 适用于MiniValine的表情包拓展，fork自GamerNoTitle的ValineCDN
 
@@ -15,7 +15,7 @@
 
 这里以b站热词表情包为例
 ```
-https://cdn.jsdelivr.net/gh/PikaSama/blog-emotions@latest/bilibilihotkey
+https://cdn.jsdelivr.net/gh/PikaSama/blog-emoticons@latest/bilibiliHotKey
 ```
 
 ## 支持的表情包
