@@ -30,6 +30,9 @@ https://cdn.jsdelivr.net/gh/PikaSama/blog-emotions@latest/bilibilihotkey
  - HONKAI3-Stan
  - HONKAI3-Star
  - HONKAI3-AIChan
+ - Mafumafu
+ - Menhera-chan
+ - Sweetie-Bunny
 
 ## 不做支持的表情包
 因部分表情包已由MiniValine官方制作，所以不做支持(优先级最低)
