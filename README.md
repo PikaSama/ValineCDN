@@ -41,3 +41,9 @@ https://cdn.jsdelivr.net/gh/PikaSama/blog-emoticons@latest/bilibiliHotKey
  - Bilibilitv
  - alu
  - Tieba
+
+## 更新日志
+ - 2020.6.13 1.0版出世
+### 已知问题
+ - 使用部分表情时预览和发送显示的表情不一样，待修复
+ - BilibiliHotKey暂时不可用，待修复
