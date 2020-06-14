@@ -21,6 +21,27 @@ https://cdn.jsdelivr.net/gh/PikaSama/blog-emoticons@latest/bilibiliHotKey
 ## 开发者文档
 scripts目录下为脚本文件存放处
 ### rename.sh
+重命名图片的脚本
+
+重命名前：
+```
+aabbccc.jpg
+114514.jpg
+n12c34c9.jpg
+...
+```
+重命名后：
+```
+xxx1.jpg
+xxx2.jpg
+xxx3.jpg
+...
+```
+
+该脚本默认只修改jpg格式的文件，你可以复制脚本中的命令，把`jpg`(有两处)改成你需要的图片格式即可，同时`hotkey`也要改为你想修改的名字
+### rename-old.sh
+旧版重命名图片脚本
+
 重命名图片的脚本，适用于名称为数字的图片，如：
 ```
 1.jpg
@@ -33,6 +54,7 @@ scripts目录下为脚本文件存放处
 xxx1.jpg
 xxx22.jpg
 xxx333.jpg
+...
 ```
 
 该脚本默认只修改jpg格式的文件，你可以复制脚本中的命令，把`jpg`改成你需要的图片格式即可，同时`hotkey`也要改为你想修改的名字
@@ -42,19 +64,19 @@ xxx333.jpg
 在图片名称列表的最后一行中，末尾会有一个`,` 按照json语法你应该删去这个`,` 但你也可以选择不删除，因为这不影响表情包的识别
 ## 支持的表情包
 持续更新中
- - BilibiliHotKey
- - HONKAI3-Crayon
- - HONKAI3-Daily
- - HONKAI3-Durandal-Search
- - HONKAI3-MEI
- - HONKAI3-NEWYEAR-2019
- - HONKAI3-Pure
- - HONKAI3-Stan
- - HONKAI3-Star
- - HONKAI3-AIChan
- - Mafumafu
- - Menhera-chan
- - Sweetie-Bunny
+ - BilibiliHotKey(已修复)
+ - HONKAI3-Crayon(已修复)
+ - HONKAI3-Daily(已修复)
+ - HONKAI3-Durandal-Search(已修复)
+ - HONKAI3-MEI(待修复)
+ - HONKAI3-NEWYEAR-2019(待修复)
+ - HONKAI3-Pure(待修复)
+ - HONKAI3-Stan(待修复)
+ - HONKAI3-Star(待修复)
+ - HONKAI3-AIChan(已修复)
+ - Mafumafu(待修复)
+ - Menhera-chan(待修复)
+ - Sweetie-Bunny(待修复)
 
 ## 不做支持的表情包
 因部分表情包已由MiniValine官方制作，所以不做支持(优先级最低)
