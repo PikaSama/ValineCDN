@@ -18,6 +18,28 @@
 https://cdn.jsdelivr.net/gh/PikaSama/blog-emoticons@latest/bilibiliHotKey
 ```
 
+## 开发者文档
+scripts目录下为脚本文件存放处
+### rename.sh
+重命名图片的脚本，适用于名称为数字的图片，如：
+```
+1.jpg
+22.jpg
+333.jpg
+...
+```
+使用脚本后的效果：
+```
+xxx1.jpg
+xxx22.jpg
+xxx333.jpg
+```
+
+该脚本默认只修改jpg格式的文件，你可以复制脚本中的命令，把`jpg`改成你需要的图片格式即可，同时`hotkey`也要改为你想修改的名字
+### gen.sh
+生成index.json的脚本
+该脚本默认只将jpg格式的图片名称写入index.json中，你可以复制脚本中的命令，把`jpg`改成你需要的图片格式即可
+在图片名称列表的最后一行中，末尾会有一个`,` 按照json语法你应该删去这个`,` 但你也可以选择不删除，因为这不影响表情包的识别
 ## 支持的表情包
 持续更新中
  - BilibiliHotKey
@@ -43,7 +65,7 @@ https://cdn.jsdelivr.net/gh/PikaSama/blog-emoticons@latest/bilibiliHotKey
  - Tieba
 
 ## 更新日志
- - 2020.6.13 1.0版出世
+ - 2020.6.14 修复B站热词表情包无法使用的问题，新增脚本文件
+ - 2020.6.13 项目出世
 ### 已知问题
  - 使用部分表情时预览和发送显示的表情不一样，待修复
- - BilibiliHotKey暂时不可用，待修复
