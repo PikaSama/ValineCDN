@@ -19,7 +19,7 @@ https://cdn.jsdelivr.net/gh/PikaSama/blog-emoticons@latest/bilibiliHotKey
 ```
 
 ## 开发者文档
-scripts目录下为脚本文件存放处
+scripts目录下为脚本文件的存放处，本人代码不精，如果你有更好的方法，欢迎分享(PR/Issues)
 ### rename.sh
 重命名图片的脚本
 
@@ -60,23 +60,25 @@ xxx333.jpg
 该脚本默认只修改jpg格式的文件，你可以复制脚本中的命令，把`jpg`改成你需要的图片格式即可，同时`hotkey`也要改为你想修改的名字
 ### gen.sh
 生成index.json的脚本
+
 该脚本默认只将jpg格式的图片名称写入index.json中，你可以复制脚本中的命令，把`jpg`改成你需要的图片格式即可
+
 在图片名称列表的最后一行中，末尾会有一个`,` 按照json语法你应该删去这个`,` 但你也可以选择不删除，因为这不影响表情包的识别
 ## 支持的表情包
 持续更新中
- - BilibiliHotKey(已修复)
- - HONKAI3-Crayon(已修复)
- - HONKAI3-Daily(已修复)
- - HONKAI3-Durandal-Search(已修复)
- - HONKAI3-MEI(已修复)
- - HONKAI3-NEWYEAR-2019(已修复)
- - HONKAI3-Pure(已修复)
- - HONKAI3-Stan(已修复)
- - HONKAI3-Star(已修复)
- - HONKAI3-AIChan(已修复)
- - Mafumafu(待修复)
- - Menhera-chan(待修复)
- - Sweetie-Bunny(待修复)
+ - BilibiliHotKey
+ - HONKAI3-Crayon
+ - HONKAI3-Daily
+ - HONKAI3-Durandal-Search
+ - HONKAI3-MEI
+ - HONKAI3-NEWYEAR-2019
+ - HONKAI3-Pure
+ - HONKAI3-Stan
+ - HONKAI3-Star
+ - HONKAI3-AIChan
+ - Mafumafu
+ - Menhera-chan
+ - Sweetie-Bunny
 
 ## 不做支持的表情包
 因部分表情包已由MiniValine官方制作，所以不做支持(优先级最低)
@@ -87,7 +89,9 @@ xxx333.jpg
  - Tieba
 
 ## 更新日志
- - 2020.6.14 修复B站热词表情包无法使用的问题，新增脚本文件
+ - 2020.6.14 修复部分表情包预览和发送的问题，新增脚本文件夹
+ - 2020.6.14 修复B站热词表情包无法使用的问题
  - 2020.6.13 项目出世
+
 ### 已知问题
- - 使用部分表情时预览和发送显示的表情不一样，待修复
+ - 无，欢迎在Issues中反馈
