@@ -4,7 +4,7 @@
 
 用此方式可以制作属于自己的ValineCDN
 
-# blog-emoticons
+# Blog-Emoticons
 
 适用于MiniValine的表情包拓展，fork自GamerNoTitle的ValineCDN
 
