@@ -1,8 +1,8 @@
-# ValineCDN
+># ValineCDN
 
-本仓库用于存放[Valine-Magic](https://github.com/GamerNoTitle/Valine-Magic)所用到的所有表情，使用了jsdelivr加速[Github](https://github.com/GamerNoTitle/ValineCDN)的表情文件，[Coding](https://gamernotitle.coding.net/p/ValineCDN/d/ValineCDN/git/tree/master)有备份
+>本仓库用于存放[Valine-Magic](https://github.com/GamerNoTitle/Valine-Magic)所用到的所有表情，使用了jsdelivr加速[Github](https://github.com/GamerNoTitle/ValineCDN)的表情文件，[Coding](https://gamernotitle.coding.net/p/ValineCDN/d/ValineCDN/git/tree/master)有备份
 
-用此方式可以制作属于自己的ValineCDN
+>用此方式可以制作属于自己的ValineCDN
 
 # Blog-Emoticons
 
@@ -22,39 +22,26 @@ https://cdn.jsdelivr.net/gh/PikaSama/blog-emoticons@latest/bilibiliHotKey
 
 ## 开发者文档
 scripts目录下为脚本文件的存放处，本人代码不精，如果你有更好的方法，欢迎分享(PR/Issues/...)
-### gen.sh
-重命名图片并生成index.json的脚本
 
-自动寻找当前文件夹的图片并进行重命名，并且将图片名称列表写入到index.json中
+### gen-all.sh
+将指定目录的所有文件写入`index.json`中
 
-支持`jpg`,`png`,`gif`格式的图片
+使用方法
+```bash
+./gen-all.sh --dir={DirName} --emo={EmoticonName}
+```
 
-使用方法：更改脚本中的`emoticon`变量为你表情包的名字(名称随意，不与你的其他表情包重名即可)，然后执行脚本即可
-
-### genall.sh
-
+ - DirName：存放表情包的目录，**请确认目录内只有表情包没有其他文件**
+ - EmoticonName：表情包名字，不与其他表情包组重名即可
 
 ## 支持的表情包
+由于脚本代码重构，为了更好的体验，表情包需要重新适配
+
 持续更新中
  - BilibiliHotKey
- - HONKAI3-Crayon
- - HONKAI3-Daily
- - HONKAI3-Durandal-Search
- - HONKAI3-MEI
  - HONKAI3-NEWYEAR-2019
- - HONKAI3-Pure
- - HONKAI3-Stan
  - HONKAI3-Star
- - HONKAI3-AIChan
- - Mafumafu
- - Menhera-chan
- - Sweetie-Bunny
  - Coolapk
- - Arcaea
- - Snow-Miku
- - Yurui-Neko
- - bilibilitv
- - bilibili2233
  - aodamiao
 
 ## 不做支持的表情包
@@ -66,6 +53,7 @@ scripts目录下为脚本文件的存放处，本人代码不精，如果你有�
  - Tieba
 
 ## 更新日志
+ - 2020.8.21 1.2 重构代码，减少操作步骤
  - 2020.6.25 1.1.2 新增两种表情包
  - 2020.6.21 1.1.1 新增酷安表情包
  - 2020.6.20 1.1 更新脚本
