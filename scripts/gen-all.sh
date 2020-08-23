@@ -1,7 +1,7 @@
 #!/bin/bash
 dir=${1#--dir=}
 emoticon=${2#--emo=}
-files=0
+files=1
 if [ ! $dir ] || [ ! $emoticon ];then
   echo [ERROR]Please enter the correct parameters.
   exit
