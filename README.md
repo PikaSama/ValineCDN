@@ -51,6 +51,15 @@ scripts目录下为脚本文件的存放处，本人代码不精，如果你有�
  - HONKAI3-Star
  - Coolapk
  - lengtu
+ - HONKAI3-Pure
+ - HONKAI3-Stan
+ - HONKAI3-AIChan
+ - HONKAI3-Durandal-Search
+ - HONKAI3-MEI
+ - HONKAI3-Crayon
+ - Arcaea
+ - Snow-Miku
+ - Sweetie-Bunny
 
 ## 不做支持的表情包
 因部分表情包已由MiniValine官方制作，所以不做支持(优先级最低)
