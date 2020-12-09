@@ -62,7 +62,13 @@ if [ $? -eq 1 ]; then
 fi
 echo [INFO]Removing old index.json file...
 rm index.json
-for name in *;do rename ${name%.*} $emoticon$files $name; list[$files]="'$emoticon$files.${name##*.}',";echo [DEBUG]$name \>\> ${list[$files]%,}; files=$(expr $files + 1);done
+for name in *;
+do
+  rename ${name%.*} $emoticon$files $name;
+  list[$files]="'$emoticon$files.${name##*.}',";
+  echo [DEBUG]$name \>\> ${list[$files]%,};
+  files=$(expr $files + 1);
+done
 echo [INFO]Writing list to index.json...
 list[$(expr $files - 1)]=${list[$(expr $files - 1)]%,}
 echo "{\"0\":["${list[*]}"]}" >> index.json
