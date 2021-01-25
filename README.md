@@ -70,6 +70,7 @@ scripts目录下为脚本文件的存放处，本人代码不精，如果你有�
  - Tieba
 
 ## 更新日志
+ - 2021.1.25 1.2.3 更新协议
  - 2020.12.9 1.2.3 原仓库 [Valine-Magic](https://github.com/GamerNoTitle/Valine-Magic) 已适配MiniValine，项目停止维护（如有必要，仅更新Shell脚本）
  - 2020.8.26 1.2.2 优化选项判断机制，增加安全性，修复不能使用Tab键补全的问题
  - 2020.8.23 1.2.1 重置仓库，重新适配表情包
@@ -82,3 +83,6 @@ scripts目录下为脚本文件的存放处，本人代码不精，如果你有�
 
 ### 已知问题
  - 无，欢迎在Issues中反馈
+ 
+ ## 协议
+ [MIT](https://mit-license.org/)
